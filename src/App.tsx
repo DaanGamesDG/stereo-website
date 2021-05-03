@@ -1,4 +1,4 @@
-import { HashRouter as Router, Switch, Route, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
 import React from "react";
 // pages
 import Landing from "./pages/Landing";
