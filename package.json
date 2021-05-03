@@ -2,7 +2,7 @@
 	"name": "stereo-website",
 	"version": "2.0.0",
 	"private": false,
-	"homepage": "http://stereo-discord-bot.github.io/stereo-website",
+	"homepage": "https://stereo-bot.tk/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
