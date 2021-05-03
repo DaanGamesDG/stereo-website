@@ -18,6 +18,10 @@
 	padding-top: 5rem;
 	padding-bottom: 10rem;
 	margin: 0 !important;
+
+	.svg {
+		margin-right: 5rem;
+	}
 }
 
 .landing-first {
@@ -205,6 +209,10 @@
 	.landing-second {
 		padding-left: 1rem;
 		padding-right: 1rem;
+
+		.svg {
+			margin-right: 0;
+		}
 	}
 
 	.svg-pm {
