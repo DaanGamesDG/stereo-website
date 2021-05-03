@@ -39,6 +39,9 @@ const Redirects = () => {
 		case "github":
 			document.location.replace("https://github.com/Stereo-music-bot/");
 			break;
+		case "paypal":
+			document.location.replace("https://paypal.me/daangamesdg");
+			break;
 		default:
 			return <NotFound />;
 	}

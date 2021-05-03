@@ -14,7 +14,7 @@ const socials = [
 	},
 	{
 		name: "Paypal",
-		link: "https://paypal.me/daangamesdg",
+		link: "/paypal",
 	},
 ];
 
