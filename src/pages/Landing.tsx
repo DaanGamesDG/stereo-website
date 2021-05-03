@@ -68,15 +68,15 @@ const Landing = () => {
 			<Wave2Down className="landing-wave" />
 			<div className="landing-container landing-second">
 				<Fade>
+					<div>
+						<Bot className="svg" />
+					</div>
 					<div className="landing-info">
 						<h1>Easy to use</h1>
 						<p>
 							Stereo is easy to use and requires little permissions to work and it even supports
 							multiple languages (English, Dutch and French)
 						</p>
-					</div>
-					<div>
-						<Bot className="svg" />
 					</div>
 				</Fade>
 			</div>
