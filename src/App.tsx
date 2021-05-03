@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, useParams } from "react-router-dom";
 import React from "react";
 import { homepage } from "../package.json";
 // pages
@@ -11,7 +11,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const App = () => (
-	<Router basename={homepage}>
+	<Router>
 		<Navbar />
 		<Switch>
 			<Route path="/" exact component={Landing} />
