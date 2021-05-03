@@ -1,0 +1,36 @@
+// imports
+@import "./navbar.scss";
+@import "./footer.scss";
+
+@import "./landing.scss";
+@import "./error.scss";
+@import "./redirect.scss";
+
+// url imports
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+	background-color: #5b5867;
+	font-family: "Poppins", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+
+	/* hide scroll bar */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
