@@ -4,6 +4,7 @@ import React from "react";
 import Landing from "./pages/Landing";
 import NotFound from "./pages/NotFound";
 import Redirect from "./pages/Redirect";
+import Playlist from "./pages/Playlist";
 
 // components
 import Navbar from "./components/navbar";
@@ -14,6 +15,7 @@ const App = () => (
 		<Navbar />
 		<Switch>
 			<Route path="/" exact component={Landing} />
+			<Route path="/playlist/:playlistid" exact component={Playlist} />
 			<Route path="/:id" exact component={Redirects} />
 			<Route path="*" component={NotFound} />
 		</Switch>
